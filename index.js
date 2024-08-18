@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
@@ -21,5 +22,6 @@ try {
 }
 
 app.listen(8080, () => {
+
     console.log("Server running on http://localhost:8080");
 });
